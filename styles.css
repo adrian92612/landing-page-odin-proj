@@ -24,6 +24,11 @@ li {
 
 }
 
+a {
+    text-decoration: none;
+    color: red;
+}
+
 .aotlogo,
 .description {
     width: 500px;
@@ -33,6 +38,10 @@ li {
 
 .bottom-header {
     font-size: 36px;
+}
+
+.bottom-desc {
+    margin: 8px 0;
 }
 
 .wings-icon {
@@ -48,7 +57,26 @@ li {
 p {
     text-align: center;
 }
+
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+}
+
+.quote-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote-text, 
+.quote-author {
+    width: 500px;
+}
+
+.quote-author {
+    text-align: right;
 }
